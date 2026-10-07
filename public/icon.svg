@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <!-- Outer glowing hexagon -->
+  <path d="M 256 64 L 436 168 L 436 376 L 256 480 L 76 376 L 76 168 Z" fill="none" stroke="url(#primaryGrad)" stroke-width="18" stroke-linejoin="round" filter="url(#glow)" />
+  <!-- Inner Gamepad / Vault icon -->
+  <path d="M 170 210 C 170 190, 342 190, 342 210 C 370 260, 380 340, 320 350 C 290 355, 276 315, 256 315 C 236 315, 222 355, 192 350 C 132 340, 142 260, 170 210 Z" fill="#1e293b" stroke="url(#primaryGrad)" stroke-width="12" stroke-linejoin="round" />
+  <!-- D-Pad Left -->
+  <path d="M 205 240 L 225 240 L 225 255 L 240 255 L 240 275 L 225 275 L 225 290 L 205 290 L 205 275 L 190 275 L 190 255 L 205 255 Z" fill="#38bdf8" />
+  <!-- Buttons Right -->
+  <circle cx="285" cy="265" r="9" fill="#c084fc" />
+  <circle cx="315" cy="245" r="9" fill="#38bdf8" />
+  <circle cx="315" cy="285" r="9" fill="#818cf8" />
+  <circle cx="345" cy="265" r="9" fill="#f43f5e" />
+  <!-- Center vault core glow -->
+  <circle cx="256" cy="245" r="6" fill="#38bdf8" />
+</svg>

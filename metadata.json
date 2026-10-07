@@ -1,0 +1,6 @@
+{
+  "name": "GameVault",
+  "description": "Browser gaming platform with 100+ playable games, local and peer-to-peer WebRTC multiplayer, achievements, offline PWA support, and built-in developer studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

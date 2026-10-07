@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="bGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bGrad)" />
+  <!-- Safe zone contained emblem -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <path d="M 256 64 L 436 168 L 436 376 L 256 480 L 76 376 L 76 168 Z" fill="none" stroke="url(#pGrad)" stroke-width="20" stroke-linejoin="round" />
+    <path d="M 170 210 C 170 190, 342 190, 342 210 C 370 260, 380 340, 320 350 C 290 355, 276 315, 256 315 C 236 315, 222 355, 192 350 C 132 340, 142 260, 170 210 Z" fill="#1e293b" stroke="url(#pGrad)" stroke-width="14" stroke-linejoin="round" />
+    <path d="M 205 240 L 225 240 L 225 255 L 240 255 L 240 275 L 225 275 L 225 290 L 205 290 L 205 275 L 190 275 L 190 255 L 205 255 Z" fill="#38bdf8" />
+    <circle cx="285" cy="265" r="9" fill="#c084fc" />
+    <circle cx="315" cy="245" r="9" fill="#38bdf8" />
+    <circle cx="315" cy="285" r="9" fill="#818cf8" />
+    <circle cx="345" cy="265" r="9" fill="#f43f5e" />
+    <circle cx="256" cy="245" r="6" fill="#38bdf8" />
+  </g>
+</svg>
